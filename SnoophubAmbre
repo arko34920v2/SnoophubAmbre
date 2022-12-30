@@ -321,6 +321,11 @@ CodeSection:NewButton("Spy/Nox Song", "...", function()
 toclipboard("6674211522")
 end)
 
+CodeSection:NewButton("1880 Hz (Thrx)", "...", function()
+	setclipboard("6970996018")
+toclipboard("6970996018")
+end)
+
 --HUB
 local Hub = Window:NewTab("Hub")
 local HubSection = Hub:NewSection("Hub")
