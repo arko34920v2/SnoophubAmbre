@@ -326,6 +326,11 @@ CodeSection:NewButton("1880 Hz (Thrx)", "...", function()
 toclipboard("6970996018")
 end)
 
+CodeSection:NewButton("Ultra Phonk", "...", function()
+	setclipboard("6846153394")
+toclipboard("6846153394")
+end)
+
 --HUB
 local Hub = Window:NewTab("Hub")
 local HubSection = Hub:NewSection("Hub")
