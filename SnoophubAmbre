@@ -10810,3 +10810,52 @@ AccesoiresSection:NewButton("Bientot...", "...", function()
 	setclipboard("Soon...")
 toclipboard("Soon...")
 end)
+
+AccesoiresSection:NewButton("Fedora leopard", "...", function()
+	setclipboard("128159389")
+toclipboard("128159389")
+end)
+
+AccesoiresSection:NewButton("leopard sunglasses", "...", function()
+	setclipboard("212947361")
+toclipboard("212947361")
+end)
+
+local Joueur = Window:NewTab("Joueur")
+local JoueurSection = Joueur:NewSection("Joueur")
+
+JoueurSection:NewSlider("SPEED(16-200)", "I", 200, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+JoueurSection:NewSlider("SPEED(16-500)", "SHOW", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+JoueurSection:NewSlider("SPEED(16-1000)", "SPEED", 1000, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+JoueurSection:NewSlider("SPEED(16-1500)", "NEY", 1500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+JoueurSection:NewSlider("SPEED(0-2000)", "NIGGA JUMP", 2000, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+JoueurSection:NewSlider("SAUT(50-150)", "BITCH JUMP", 150, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+JoueurSection:NewSlider("SAUT(50-250)", "YOUR MOM JUMP", 250, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+JoueurSection:NewSlider("SAUT(50-300)", "DIE JUMP", 500, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+JoueurSection:NewSlider("Grav(160-0)", "WE GANG", 0, 160, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Workspace.Gravity = s
+end)
