@@ -750,7 +750,7 @@ NetlessSection:NewButton("l'avion (R15 et R6)", "le cube parfait", function()
     loadstring(game:HttpGet(('https://pastefy.ga/o45IJG3Z/raw'),true))()
 end)
 
-NetlessSection:NewButton("AMOGUS (R6 et R15)", "DEVIENS UN AMOGUS", function()
+NetlessSection:NewButton("LE SORCIER FLINGUEUR (R6 et R15)", "SUBIS MON POUVOIR", function()
     loadstring(game:HttpGet(('https://pastefy.ga/9iXhPuYI/raw'),true))()
 end)
 
