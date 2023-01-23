@@ -5742,7 +5742,81 @@ local Manip = Window:NewTab("Manip")
 local ManipSection = Manip:NewSection("Manip")
 
 
+ManipSection:NewButton("Load ControlXploit", "gravité normale", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/arko34920v2/ControlXploit/main/ControlXploit", true))()
+end)
+
 ManipSection:NewButton("Stoppeur", "un essai", function()
-    setclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 5")
-toclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 5")
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0")
+end)
+
+ManipSection:NewButton("MLG VITESSE", "un essai", function()
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150")
+end)
+
+ManipSection:NewButton("DIEU VITESSE", "un essai", function()
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 300")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 300")
+end)
+
+ManipSection:NewButton("KORBLOX VITESSE", "un essai", function()
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500")
+end)
+
+ManipSection:NewButton("Astronaute", "genre tu flottes", function()
+    setclipboard("game.Workspace.Gravity = 0")
+toclipboard("game.Workspace.Gravity = 0")
+end)
+
+ManipSection:NewButton("Qui est ce Isaac Newton ?", "défie les lois de la gravité", function()
+    setclipboard("game.Workspace.Gravity = 25")
+toclipboard("game.Workspace.Gravity = 25")
+end)
+
+ManipSection:NewButton("Yakuza", "saute comme un yakuza", function()
+    setclipboard("game.Workspace.Gravity = 75")
+toclipboard("game.Workspace.Gravity = 75")
+end)
+
+ManipSection:NewButton("Humain", "gravité normale", function()
+    setclipboard("game.Workspace.Gravity = 165")
+toclipboard("game.Workspace.Gravity = 165")
+end)
+
+ManipSection:NewButton("bloqué sur terre", "haha cheh", function()
+    setclipboard("game.Workspace.Gravity = 99999999999999999999")
+toclipboard("game.Workspace.Gravity = 9999999999999999")
+end)
+
+ManipSection:NewButton("Saute", "fais du rodéo ou envole toi", function()
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid.Jump = true")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid.Jump = true")
+end)
+
+ManipSection:NewButton("Bon chien", "un essai", function()
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid.Sit = true")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid.Sit = true")
+end)
+
+ManipSection:NewButton("Faucheur", "Tue ton pote", function()
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid.Health = 0")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid.Health = 0")
+end)
+
+ManipSection:NewButton("Yandere", "un essai", function()
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid:Destroy()")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid:Destroy()")
+end)
+
+ManipSection:NewButton("Ciseaux", "c'est encore pire que le faucheur", function()
+    setclipboard("game.Players.LocalPlayer.Character.LowerTorso:Destroy()")
+toclipboard("game.Players.LocalPlayer.Character.LowerTorso:Destroy()")
+end)
+
+ManipSection:NewButton("Goulag", "Welcome to the goulag XD", function()
+    setclipboard("game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,50,0)")
+toclipboard("game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,50,0)")
 end)
