@@ -5737,3 +5737,12 @@ end)
 JoueurSection:NewSlider("Grav(160-0)", "WE GANG", 0, 160, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Workspace.Gravity = s
 end)
+
+local Manip = Window:NewTab("Manip")
+local ManipSection = Manip:NewSection("Manip")
+
+
+ManipSection:NewButton("Stoppeur", "un essai", function()
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 5")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 5")
+end)
