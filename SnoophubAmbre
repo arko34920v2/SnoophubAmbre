@@ -121,9 +121,9 @@ CodeSection:NewButton("aaaaa zo", "...", function()
 toclipboard("8222782975")
 end)
 
-CodeSection:NewButton("Electric City", "...", function()
-    setclipboard("1838659275")
-toclipboard("1838659275")
+CodeSection:NewButton("eminem ressemblance", "...", function()
+    setclipboard("1841374584")
+toclipboard("1841374584")
 end)
 
 CodeSection:NewButton("Harx is fury😡", "...", function()
@@ -5743,12 +5743,18 @@ local ManipSection = Manip:NewSection("Manip")
 
 
 ManipSection:NewButton("Load ControlXploit", "gravité normale", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Tour de contrôle prête, Entrez le nom de votre allié." ,"All")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/arko34920v2/ControlXploit/main/ControlXploit", true))()
 end)
 
 ManipSection:NewButton("Stoppeur", "un essai", function()
     setclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0")
 toclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0")
+end)
+
+ManipSection:NewButton("Lenteur", "un essai", function()
+    setclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 5")
+toclipboard("game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 5")
 end)
 
 ManipSection:NewButton("MLG VITESSE", "un essai", function()
