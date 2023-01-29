@@ -600,7 +600,21 @@ TailleSection:NewButton("tete géante", "GROS CERVEAU", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/BigHeadV2/main/BigHeadV2-r15", true))()
 end)
 
+TailleSection:NewButton("mini tête et gros corps", "GIGA CORNES", function()
+    game.StarterGui:SetCore("SendNotification", {
+			Title = "COMBO de tailles";
+			Text = "D'abord Appuyer sur tête géante puis ensuite cliquer sur le Microbe LVL3, puis pour finir mettez vous en 0.4 avec le corps de Garçon";
+			Icon = "";
+			Duration = "10";
+			
+		})
+end)
+
 TailleSection:NewButton("OBJETS GEANT (RTHRO SEULEMENT)", "GIGA CORNES", function()
+    loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/hat%20resize'))()
+end)
+
+TailleSection:NewButton("OBJETS GEANT + TETE GEANTE (RTHRO SEULEMENT)", "GIGA CORNES", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/hat%20%2B%20head%20resize'))()
 end)
 
